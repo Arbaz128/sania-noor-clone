@@ -1,0 +1,320 @@
+body
+{
+margin: 0;
+padding: 0;
+}
+.marquee
+{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+height: 50px;
+
+}
+.parent
+{
+    display: flex;
+    justify-content: space-between;
+}
+.text
+{
+    display: flex;
+}
+.logo
+{
+    display: flex;
+}
+.mainimg
+{
+    height: 60px;
+}
+.textwords
+{
+    padding: 20px;
+    font-weight: bold;
+}
+.forlogo
+{
+    padding: 5px;
+    width: 30px;
+    height: 60px;
+}
+.arrival
+{
+display: flex;
+justify-content: space-between;
+}
+.right
+{
+    display: flex;
+    flex-direction: column;
+}
+.rightimg
+{
+    width: 650px;
+    padding: 40px;
+    
+}
+.leftimg
+{
+    height: 720px;
+    width: 500px;
+    padding: 20px;
+    margin: 20px;
+}
+.newarrival
+{
+    text-align: center;
+}
+.heading
+{
+    display: flex;
+}
+.hr 
+{
+    width: 540px;
+}
+.lineimg
+{
+    display: flex;
+}
+.column
+{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin: 2px;
+    padding: 15px;
+}
+.dress
+{
+    padding: 10px;
+    width: 380px;
+}
+.fortwo
+{
+    display: flex;
+    padding-left: 190px;
+}
+.forone
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer
+{
+    background-color: black;
+    color:white;
+    display: block;
+}
+.parentdiv
+{
+    display: flex;
+    justify-content: space-around;
+}
+.column1
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.column2
+{
+    display: flex;
+    flex-direction: column;
+}
+.column3
+{
+    display: flex;
+    flex-direction: column;
+}
+.formail
+{
+    display: flex;
+}
+.footerimg
+{
+    width: 300px;
+}
+.input
+{
+    background-color: black;
+    color: gainsboro;
+    border-radius: 20px;
+    width: 350px;
+    height: 50px;
+}
+.input1
+{
+    padding-top:30px ;
+}
+.button
+{
+    background-color: rgb(31, 30, 30);
+    color: white;
+    border-radius: 20px;
+    height: 50px;
+    width: 100px;
+
+}
+.lastline
+{
+    display: flex;
+    justify-content: space-around;
+}
+.select
+{
+    width: 70px;
+    height: 30px;
+}
+.whatsappimg
+{
+height: 40px;
+position:fixed;
+bottom: 0;
+right: 100px;
+}
+.copy
+{
+padding-right:220px;
+}
+.onlyformedia
+{
+    display: none;
+}
+.textwords
+{
+    display: block;
+}
+.for 
+{
+    display: block;
+
+}
+.get
+{
+    display: flex;
+justify-content: space-between;
+}
+.privacy
+{
+   text-align: center;
+}
+.footernav
+{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    bottom: 0;
+    display: none;
+    flex-direction: row;
+}
+.fnav 
+{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    align-items: center;
+}
+.formobile
+{
+background-color: black;
+color: white;
+display: none;
+
+}
+
+@media screen and (min-width:200px) and (max-width:800px)
+{
+.onlyformedia
+{
+    display: block;
+}
+.textwords
+{
+    display: none;
+}
+.for 
+{
+    display: none;
+}
+.arrival
+{
+    display: flex;
+    flex-direction: column;
+}
+.img 
+{
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+}
+.lineimg
+{
+    display: flex;
+    flex-direction: column;
+}
+body 
+{
+    width: 100%;
+}
+.fortwo
+{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+.marquee
+{
+    width: 100%;
+}
+.parent
+{
+    width: 100%;
+}
+footer 
+{
+    display: none;
+}
+
+.hr
+{
+    display: none;
+}
+.heading
+{
+padding-left: 150px;
+}
+.parent
+{
+    align-items: center;
+}
+.mainlogo
+{
+    padding-left: 100px;
+}
+.footernav
+{
+    display:block;
+    display: flex;
+}
+.formobile
+{
+    display: block;
+}
+}
+
+.input1
+{
+    position: relative;
+}
+.button
+{
+    height: 45px;
+    position: absolute;
+right: 4px;
+bottom: 1px;
+}
